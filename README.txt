@@ -10,6 +10,8 @@ Stable tag: 1.0
 A flexible shortcode and lookup tool for creating internal links in post/page content (or anywhere shortcodes are parsed).
 A lookup tool is added to the sidebar of the post edit screen for locating shortcodes for internal posts.
 
+A plugin by <a href="http://crowdfavorite.com">Crowd Favorite</a>. We build Big Things with WordPress.
+
 
 == Installation == 
 	
