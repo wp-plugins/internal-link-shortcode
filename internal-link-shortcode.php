@@ -3,12 +3,12 @@
 Plugin Name: CF Internal Link Shortcode 
 Plugin URI: http://crowdfavorite.com/wordpress/plugins/internal-link-shortcode
 Description: Site reorganization-proof internal linking via shortcodes, referencing page/post IDs. 
-Version: 1.0 
+Version: 1.0.1 
 Author: Crowd Favorite
 Author URI: http://crowdfavorite.com
 */
 
-// Copyright (c) 2010 
+// Copyright (c) 2010-2011 
 //   Crowd Favorite, Ltd. - http://crowdfavorite.com
 //   Alex King - http://alexking.org
 // All rights reserved.
@@ -276,7 +276,7 @@ function cfplsc_meta_box() {
 <fieldset>
 	<a href="#" class="cfplsc_help"><?php _e('?', 'cf-internal-link-shortcode'); ?></a>
 	<label for="cfplsc_post_title"><?php _e('Page / Post Title:', 'cf-internal-link-shortcode'); ?></label>
-	<input type="text" name="post_title" id="cfplsc_post_title" autocomplete="off" />
+	<input type="text" name="cfplsc_post_title" id="cfplsc_post_title" autocomplete="off" />
 	<div class="live_search_results"></div>
 	<div class="cfplsc_readme">
 		<h4><?php _e('Shortcode Syntax / Customization', 'cf-internal-link-shortcode'); ?></h4>
