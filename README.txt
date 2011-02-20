@@ -1,9 +1,9 @@
 === CF Internal Link Shortcode ===
 Contributors: alexkingorg, crowdfavorite
-Tags: internal, link, permalink, shortcode, lookup, reorganize
+Tags: internal, link, permalink, shortcode, lookup, reorganize, post, page
 Requires at least: 2.6
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 == Description ==
 
@@ -36,7 +36,7 @@ Yes, using the shortcode  [link id='123' text='my link text'] will produce a lin
 You can also add class and rel attributes to the shortcode. [link id='123' text='my link text' class='my-class' rel='external'] will produce the following link 
 <a href="{url of post/page #123}" class="my-class" rel="external">my link text</a>
 
-Both of these examples can be viewed in Internal Link Shortcode Lookup box by clicking on the ?
+Both of these examples can be viewed in Internal Link Shortcode Lookup box by clicking on the '?'.
 
 = Anything else? =
 
@@ -44,6 +44,10 @@ That about does it - enjoy!
 
 
 == Changelog ==
+
+= 1.0.1 =
+
+- Rename the 'name' value of the search field so that it doesn't conflict with an existing WP Admin field.
 
 = 1.0 =
 
